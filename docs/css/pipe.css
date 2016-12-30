@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../fonts/worksans/WorkSans-Regular.woff2') format('woff2'),
+       url('../fonts/worksans/WorkSans-Regular.woff') format('woff'),
+       url('../fonts/worksans/WorkSans-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Work Sans Bold';
+  src: url('../fonts/worksans/WorkSans-Bold.woff2') format('woff2'),
+       url('../fonts/worksans/WorkSans-Bold.woff') format('woff'),
+       url('../fonts/worksans/WorkSans-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+body, input, textarea, p, li, span, div, select {
+    font-family: 'Work Sans', sans-serif !important;
+	font-style: normal;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+    font-family: 'Work Sans Bold', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+a {
+	color:#fff;
+}
+
+#content h1,
+#content h2 {
+	color:#fff;
+}
+
+footer a {
+	color:#fff;
+}
+
+#primary-menu li.active a  {
+	color:#fff !important;
+}
+
+#section-home .copy h2 {
+	font-weight:400;
+	text-align:center;
+	color:#fff;
+}
+
+#section-home .copy h3 {
+	font-weight:400;
+	color:#fff;
+}
+
+#section-home .copy p {
+	font-weight:400;
+}
+
+.flexslider .slider-wrap {
+	opacity:1;
+}
+
+.flexslider .slider-wrap .slide {
+	background-image: url('../img/backgrounds/bg.jpg'); 
+	background-position:left center !important;
+	background-repeat:no-repeat;
+	background-size: contain; 
+	height:100% !important;
+}
+
+body.contact .flexslider .slider-wrap .slide {
+	background-image: url('../img/backgrounds/3.jpg') !important; 
+}
+
+body.developers .flexslider .slider-wrap .slide {
+	background-image: url('../img/backgrounds/2.jpg') !important; 
+}
+
+body.devices .flexslider .slider-wrap .slide {
+	background-image: url('../img/backgrounds/1.jpg') !important; 
+}
+
+body.howitworks .flexslider .slider-wrap .slide {
+	background-image: url('../img/backgrounds/4.jpg') !important; 
+}
+
+body.impressum .flexslider .slider-wrap .slide {
+	background-image: url('../img/backgrounds/6.jpg') !important; 
+}
+
+body.privacypolicy .flexslider .slider-wrap .slide {
+	background-image: url('../img/backgrounds/3b.jpg') !important; 
+}
+
+body.team .flexslider .slider-wrap .slide {
+	background-image:none !important; 
+ 	background-color: #010202 !important;
+ }
+
+body.homepage .flexslider .slider-wrap .slide {
+	background-image: url('../img/backgrounds/7.jpg') !important; 
+}
+
+
+
+.fslider {
+background-color: #020607 !important;
+}
+
+#section-team h3 {
+	margin:2rem 0 0 0;
+	padding:0;
+}
+
+#section-team h4 {
+	margin:0;
+	padding:0;
+	font-weight:400;
+}
+
+.success,
+.syncing  {
+	text-align:center;
+}
+.success i,
+.syncing i {
+	font-size:10rem;
+	margin:2rem auto;
+}
+
+.success {
+	color:#fff;
+}
+
+.device-option {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+.device-option li {
+	margin:.3rem 0;
+	padding:0;
+	display:block;
+}
+
+.device-option li a {
+	color:#fff;
+	margin:0;
+	padding:.5rem 1rem;
+	background-color:#060608;
+	border-radius:.3rem;
+	display:block;
+}
+
+.togglet p {
+	font-size:1.2rem;
+	font-weight:400;
+}
+
+#tabs .tab-nav li:first-child {
+	margin-left:0;
+}
+
+#tabs .tab-nav li a {
+	font-weight:400;
+}
+
+@media only screen and (max-width:400px) {
+
+#tabs .tab-nav li a {
+	font-size:1.2rem;
+	font-weight:400;
+	padding-left:.8rem;
+	padding-right:.8rem;
+}
+
+#tabs .tab-nav li a i {
+	font-size:1rem;
+}
+
+
+/* */
+}
+
+.teamprofile {
+	margin-top:-5rem !important;
+}
+
+.prominent {
+  font-family: 'Work Sans Bold' !important;
+	font-size:2.4rem;
+	text-align:center;
+	font-weight:400;
+	color:#fff;
+}
+
+.li-devices {
+	display:none;
+}
+
+#section-howitworks ul {
+	margin:2rem 0;
+	padding:0;
+	list-style-type:none;
+}
+
+#section-howitworks ul li {
+	margin-bottom:1rem;
+}
+
+.supported div {
+	text-align:center;
+}
+
+.supported .allogos img {
+	width:8%;
+	margin:0 1.5%;
+	max-width:100%;
+}
+
+
+#section-home h2.bottommargin-lg strong {
+	padding-left:.3rem;
+	padding-right:.3rem;
+}
+
+
+

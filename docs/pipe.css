@@ -1,0 +1,35 @@
+html {
+ height: 100%;
+}
+body {
+    color: white;
+    background: black;
+    display: block;
+    margin: 8px;
+    height: 100%;
+    font-family: Calibri, sans-serif;
+}
+.message {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48pt;
+}
+a {
+    color: inherit;
+}
+
+.wrap {
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.footlink {
+    vertical-align: bottom;
+    font-size: large;
+    text-align: right;
+    color: whitesmoke;
+    margin-right: 5%;
+    height: 10%;
+}
